@@ -1,5 +1,6 @@
 import InitCommand from "@tiequan/init";
 import { createCli } from "./createCli.js";
+import "./exception.js";
 
 export default function entry(argv) {
   // 添加命令

@@ -35,10 +35,10 @@ class Command {
     throw Error("action");
   }
   preAction() {
-    console.log("preAction");
+    // console.log("preAction");
   }
   postAction() {
-    console.log("postAction");
+    // console.log("postAction");
   }
 }
 

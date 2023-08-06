@@ -11,4 +11,8 @@ log.heading = "tiequan";
 log.addLevel("zt", 5000, { fg: "green", bold: true });
 log.verbose("调试", "调试中");
 
+export function isDebug() {
+  return process.argv.includes("--debug");
+}
+
 export default log;
