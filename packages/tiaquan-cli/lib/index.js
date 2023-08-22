@@ -5,7 +5,7 @@ import "./exception.js";
 export default function entry(argv) {
   // 添加命令
   const program = createCli();
-  InitCommand(program);
+  InitCommand(program); 
 
   // 解析
   program.parse(process.argv);

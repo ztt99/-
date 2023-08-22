@@ -25,7 +25,11 @@
     "chalk": "^4.1.2",
     "lerna": "^6.6.2"
   },
+  "type": "module",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "ejs": "^3.1.9"
+  }
 }

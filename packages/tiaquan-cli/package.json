@@ -34,6 +34,7 @@
     "@tiequan/init": "^0.0.0",
     "@tiequan/utils": "^0.0.0",
     "commander": "^11.0.0",
+    "glob": "^10.3.3",
     "import-local": "^3.1.0",
     "semver": "^7.5.3"
   },
